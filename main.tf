@@ -1,7 +1,7 @@
 data "google_client_config" "default" {}
 
 module "label" {
-  source      = "git::https://github.com/SweetOps/terraform-null-label.git?ref=tags/0.6.1"
+  source      = "git::https://github.com/khalidid/terraform-null-label.git?ref=tags/0.6.1"
   enabled     = "${var.enabled}"
   namespace   = "${var.namespace}"
   name        = "${var.name}"
